@@ -1,0 +1,87 @@
+/*
+ File: style.css
+ COMP 4610 Assignment:  Using the jQuery UI Slider and Tab Widgets
+ Julia Spehlmann, UMass Lowell Computer Science, julia_spehlmann@student.uml.edu
+ Copyright (c) 2018 by Julia Spehlmann. All rights reserved.
+ Updated by JS on November 30, 2018 at 3:58 PM
+
+ This file adds styling to my multiplication web application and error messages.
+ Additional styling for slider and tab widgets.
+ Most of the styling used for this app is Bootstrap.
+*/
+
+/* changes header color and makes it bold */
+.jumbotron h1 {
+  color: #1f3d7a;
+  font-weight:bold;
+}
+/* separates multiplcand and multiplier info */
+.second-part {
+  margin-top: 40px;
+}
+
+/* adds spacing between table and button */
+.table {
+  margin-top: 40px;
+}
+
+/* customizes background color for table data*/
+.table tr {
+  background-color: rgb(233, 236, 239);
+}
+
+/* removes background from table headers for better visibility */
+.table th {
+  background-color: white;
+  color: black;
+}
+
+/* addition of error styling */
+.error {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+label {
+  color: #1f3d7a;
+  font-weight: bold;
+}
+
+/* styling for tabs */
+#tabs div {
+  width: 10%;
+  height: 10%;
+  background: #aaaaaa;
+}
+
+#tabs table {
+  width: 10%;
+  height: 10%;
+}
+
+ul {
+ list-style-type: none;
+ display: inline-flex;
+ }
+
+ #tabs .ui-tabs-nav li {
+   margin-top: 0.6em;
+   font-size: 60%;
+ }
+ 
+ #tabs .ui-tabs-nav li.ui-tabs-selected,
+ #tabs .ui-tabs-nav li.ui-state-active {
+   margin-top: 0em;
+   font-size: 80%;
+ }
+
+/*styling for save table btn*/
+#add-tab {
+  margin-bottom: 20px;
+}
+
+.ui-widget tbody {
+  color: #26616b;
+  font-size: 12px;
+}
